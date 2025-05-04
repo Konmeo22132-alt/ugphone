@@ -11,8 +11,8 @@ const data =
         `%c🌸 Cảm ơn bạn đã sử dụng code nhập Local Storage! 🌸 
         %cBây giờ bạn chỉ cần làm mới trang web Ugphone Cloud là được nhé!
         %c
-YouTube: https://www.youtube.com/@nikatahanami
-Discord: https://discord.gg/WAQ7WKMB44`,
+YouTube: https://www.youtube.com/@huneee205
+Discord: https://discord.gg/huneipa`,
         'color: #ff69b4; font-size: 16px; font-weight: bold;',
         'color: #ff8c00; font-size: 15px; font-weight: bold;',
         'color: #ffffff; font-size: 10px;'

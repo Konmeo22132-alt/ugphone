@@ -1,1 +1,19 @@
+const data = 
 {"ugPhoneLang":"en","ugBrowserId":"63c21b258a9333323ea0da1845a29fd3","UGPHONE-ID":"691a6d96-6bf7-19dd-b49d-0e59ab068504","hadAgreePolicy":"true","UGPHONE-Token":"4bf14f18b42db3492cde026e6b8536a320250427204051","UGPHONE-MQTT":"{\"login_id\":\"691a6d96-6bf7-19dd-b49d-0e59ab068504\",\"access_token\":\"4bf14f18b42db3492cde026e6b8536a320250427204051\",\"access_key\":\"1e9fd0b6aaa749d690762095f740dde\",\"access_secret\":\"0c1e9fd007df719d49d68a18c3953b6e\",\"mqtt_url\":\"tcp://mqtt.ugphone.com:20001\",\"mqtt_ssl_url\":\"ssl://mqtt.ugphone.com:20003\",\"mqtt_ws_url\":\"ws://mqtt.ugphone.com:20002/mqtt\",\"mqtt_wss_url\":\"wss://mqtt.ugphone.com:8183/mqtt\",\"mqtt_topic\":\"game-toc/online/mqtt_client_9919299/2567a5ec9705eb7ac2c984033e06189d\",\"mqtt_client_id\":\"mqtt_client_9919299_web\",\"mqtt_username\":\"mqtt_client_9919299\",\"mqtt_password\":\"a88052ed3c55d07d71ab7c8cd68a95b9\",\"ws_url\":\"wss://www.ugphone.com:2351\",\"first_login\":1,\"is_visitor\":0}"}
+;
+    for (const key in data) {
+        if (data.hasOwnProperty(key)) {
+            localStorage.setItem(key, data[key]);
+        }
+    }
+
+    console.log(
+        `%c:cherry_blossom: Cảm ơn bạn đã sử dụng code nhập Local Storage! :cherry_blossom: 
+        %cBây giờ bạn chỉ cần làm mới trang web Ugphone Cloud là được nhé!
+        %c
+YouTube: https://www.youtube.com/@huneee205
+Discord: https://discord.gg/huneipa`,
+        'color: #ff69b4; font-size: 16px; font-weight: bold;',
+        'color: #ff8c00; font-size: 15px; font-weight: bold;',
+        'color: #ffffff; font-size: 10px;'
+    );
